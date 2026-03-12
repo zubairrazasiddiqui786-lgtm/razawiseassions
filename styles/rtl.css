@@ -1,0 +1,42 @@
+html[dir="rtl"] body {
+  font-family: "Noto Nastaliq Urdu", serif;
+}
+
+html[dir="rtl"] .nav-inner,
+html[dir="rtl"] .nav-left,
+html[dir="rtl"] .nav-right,
+html[dir="rtl"] .hero-actions,
+html[dir="rtl"] .section-header,
+html[dir="rtl"] .latest-meta,
+html[dir="rtl"] .filter-bar {
+  direction: rtl;
+}
+
+html[dir="rtl"] .question-layout {
+  direction: rtl;
+}
+
+html[dir="rtl"] .answer-box {
+  border-left: none;
+  border-right: 3px solid var(--green);
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+html[dir="rtl"] .blockquote {
+  border-left: none;
+  border-right: 3px solid var(--gold);
+  padding-left: 0;
+  padding-right: 16px;
+}
+
+html[dir="rtl"] .qa-grid .card::before,
+html[dir="rtl"] .result-card {
+  left: auto;
+  right: 0;
+}
+
+html[dir="rtl"] .search-box button {
+  right: auto;
+  left: 10px;
+}
